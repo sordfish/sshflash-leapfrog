@@ -10,7 +10,7 @@ Note: This fork combines both the sshflash program and images for the custom Lin
 - Install required dependencies: `sudo apt install sg3-utils python3 git` (If you get any Python errors, try installing python2 instead).
 - Clone this repository: `git clone https://github.com/SpyderGamer/sshflash-leapfrog.git`.
 - Change directory to the cloned repo: `cd sshflash-leapfrog`.
-- Run the script: `./remote_flash.sh`
+- Run the script: `./remote_flash.sh`.
 - Follow the instructions provided by the script and make sure to select the correct Leapfrog device.
 - After the firmware was flashed, your Leapfrog should automatically reboot.
 
@@ -22,8 +22,8 @@ Note: This fork combines both the sshflash program and images for the custom Lin
 
 # Adding ROMs
 - Make sure your Leapfrog is still connected to your PC via cable.
-- To transfer ROMs to the Leapfrog, use the command: `scp -i ~/sshflash/keys/id_rsa '<ROM_LOCATION>' root@169.254.6.1:/roms/CONSOLE_NAME`
-- For example: `scp -i ~/sshflash/keys/id_rsa ~/ROMs/Genesis/Sonic_The_Hedgehog_2.md root@169.254.6.1:/roms/Genesis`
+- To transfer ROMs to the Leapfrog, use the command: `scp -i ~/sshflash/keys/id_rsa '<ROM_LOCATION>' root@169.254.6.1:/roms/CONSOLE_NAME`.
+- For example: `scp -i ~/sshflash/keys/id_rsa ~/ROMs/Genesis/Sonic_The_Hedgehog_2.md root@169.254.6.1:/roms/Genesis`.
 
 # Credits
 Huge thanks to [mac2612](https://github.com/mac2612) for making this project in the first place!
