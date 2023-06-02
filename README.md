@@ -1,2 +1,2 @@
 # sshflash
-Software to flash leapfrog device firmware over SSH.
+Software to flash (custom) leapfrog device firmware over SSH.
