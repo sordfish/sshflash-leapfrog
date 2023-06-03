@@ -6,7 +6,7 @@ Note: This fork combines both the sshflash program and images for the custom Lin
 ![LeapSonic](https://github.com/SpyderGamer/sshflash-leapfrog/assets/85440857/959a9aef-78f0-480c-aff6-a5f630e26980)
 
 # Installation
-- Make sure your Leapfrog is connected to your computer via cable and is in recovery mode (Script will let you know how to enter recovery mode). Usually to enter recovery mode, you hold the Shoulder Buttons (L + R) and the Hint Button (?) then press the ON Button. You should be greeted by a green screen with a picture of a Leapfrog connected to a computer. This key combination could vary with each model, so refer to the script.
+- Make sure your Leapfrog is connected to your computer via cable and is in recovery mode (Script will let you know how to enter recovery mode). Usually to enter recovery mode you should turn off the Leapfrog, then hold the **Shoulder Buttons (L + R)** and the **Hint Button (?)**, then press the **ON Button**. You should be greeted by a green screen with a picture of a Leapfrog connected to a computer. This key combination could vary with each model, so refer to the script.
 - Install required dependencies: `sudo apt install sg3-utils python3 git` (If you get any Python errors, try installing python2 instead).
 - Clone this repository: `git clone https://github.com/SpyderGamer/sshflash-leapfrog.git`.
 - Change directory to the cloned repo: `cd sshflash-leapfrog`.
