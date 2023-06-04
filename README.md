@@ -30,6 +30,7 @@ Huge thanks to [mac2612](https://github.com/mac2612) for making this project in 
 - Original Repository: https://github.com/mac2612/sshflash
 - Retroleap (Firmware): https://github.com/mac2612/retroleap
 
-# Additional Help
+# Additional Help/Recources
 - Video Help: https://youtu.be/xBuSWCzDB1M
 - Windows Version: https://github.com/andymcca/sshflash-win
+- Extra RetroArch Cores: https://github.com/andymcca/retroleap/releases/tag/retroarch-v1.13.0-for-retroleap
