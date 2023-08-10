@@ -103,6 +103,12 @@ flash_nand () {
   boot_surgeon ${prefix}surgeon_zImage $memloc
   # For the first ssh command, skip hostkey checking to avoid prompting the user.
   ${SSH} -o "StrictHostKeyChecking no" 'test'
+  if [ $? -eq 0 ]; then
+    echo "SSH connection successful."
+  else
+    echo "SSH connection failed. Exiting."
+    exit 1
+  fi
   nand_part_detect
   nand_flash_kernel $kernel
   nand_flash_rfs ${prefix}rootfs.tar.gz
