@@ -142,6 +142,12 @@ flash_mmc () {
   boot_surgeon ${prefix}surgeon_zImage superhigh
   # For the first ssh command, skip hostkey checking to avoid prompting the user.
   ${SSH} -o "StrictHostKeyChecking no" 'test'
+  if [ $? -eq 0 ]; then
+    echo "SSH connection successful."
+  else
+    echo "SSH connection failed. Exiting."
+    exit 1
+  fi
   mmc_flash_kernel ${prefix}uImage
   mmc_flash_rfs ${prefix}rootfs.tar.gz
   echo "Done! Rebooting the host."
