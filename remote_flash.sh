@@ -36,7 +36,7 @@ boot_surgeon () {
   memloc=$2
   echo "Booting the Surgeon environment..."
   python2 make_cbf.py $memloc $surgeon_path surgeon_tmp.cbf
-  sudo python2 boot_surgeon.py surgeon_tmp.cbf
+  python2 boot_surgeon.py surgeon_tmp.cbf
   echo -n "Done! Waiting for Surgeon to come up..."
   rm surgeon_tmp.cbf
   sleep 15
